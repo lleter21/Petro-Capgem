@@ -17,3 +17,7 @@ Create a basic Microsoft Entra ID setup for an organization to manage identity a
 Login to Az CLI:
 
 ![image](https://github.com/user-attachments/assets/f404af62-103d-4f81-b8d3-9b109a32661f)
+
+Logged in succesfully:
+
+![image](https://github.com/user-attachments/assets/12ac4bbf-cd23-4543-8ee7-4b66c73e37fe)
