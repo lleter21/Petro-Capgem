@@ -26,5 +26,7 @@ B) Create users:
 
 ![image](https://github.com/user-attachments/assets/5f046950-87b8-4bab-ba13-02cb1494a6fa)
 
+<code>
 adminUserPassword=$(openssl rand -base64 10) </p>
 adminUserObject=$(az ad user create --display-name "Van Gogh" --password "$adminUserPassword" --user-principal-name "vang@tvpeter0521gmail.onmicrosoft.com" --mail-nickname "vang")
+</code>/
