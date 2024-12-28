@@ -6,7 +6,6 @@
 
 <h2>Practical Task 1: Introduction to Microsoft Entra ID<h3>
 Create a basic Microsoft Entra ID setup for an organization to manage identity and access.
-<h2></h2>
 <b>Requirements</b>:
 1. Create a new Microsoft Entra ID tenant.
 
