@@ -29,16 +29,19 @@ Logged in succesfully:
     <th>Display Name</th>
     <th>Email</th>
     <th>Short Alias</th>
+    <th>Group Name</th>
   </tr>
   <tr>
     <td>Van Gogh</td>
     <td>vang@tvpeter0521gmail.onmicrosoft.com</td>
     <td>vang</td>
+    <td>Admin</td>
   </tr>
   <tr>
     <td>Michelangelo Buonarroti</td>
     <td>micb@tvpeter0521gmail.onmicrosoft.com</td>
     <td>micb</td>
+    <td>Developer</td>
   </tr>
 </table> 
 
