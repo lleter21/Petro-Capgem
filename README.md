@@ -14,7 +14,7 @@ Create a basic Microsoft Entra ID setup for an organization to manage identity a
 
 2. Add at least two users to the directory.
 
-A) Login to Az CLI:
+<b>A) Login to Az CLI:</b>
 
 ![image](https://github.com/user-attachments/assets/f404af62-103d-4f81-b8d3-9b109a32661f)
 
@@ -22,7 +22,7 @@ Logged in succesfully:
 
 ![image](https://github.com/user-attachments/assets/12ac4bbf-cd23-4543-8ee7-4b66c73e37fe)
 
-B) Create users:
+<b>B) Create users:</b>
 
 <table>
   <tr>
@@ -57,5 +57,5 @@ developerUserPassword=$(openssl rand -base64 10)
 developerUserObject=$(az ad user create --display-name "Michelangelo Buonarroti" --password "$developerUserPassword" --user-principal-name "micb@tvpeter0521gmail.onmicrosoft.com" --mail-nickname "micb")
 </code>
 
-C) Validate users creation:
+<b>C) Validate users creation:</b>
 ![image](https://github.com/user-attachments/assets/f060cf25-4669-4b48-872b-ce85b8889595)
