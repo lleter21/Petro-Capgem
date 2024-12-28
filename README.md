@@ -43,6 +43,7 @@ B) Create users:
 </table> 
 
 ![image](https://github.com/user-attachments/assets/5f046950-87b8-4bab-ba13-02cb1494a6fa)
+![image](https://github.com/user-attachments/assets/b3281af0-55b1-4a7f-883a-e999a5712984)
 
 <code>
 adminUserPassword=$(openssl rand -base64 10) </p>
