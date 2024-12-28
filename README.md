@@ -29,4 +29,4 @@ B) Create users:
 <code>
 adminUserPassword=$(openssl rand -base64 10) </p>
 adminUserObject=$(az ad user create --display-name "Van Gogh" --password "$adminUserPassword" --user-principal-name "vang@tvpeter0521gmail.onmicrosoft.com" --mail-nickname "vang")
-</code>/
+</code>
