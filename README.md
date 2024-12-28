@@ -9,3 +9,5 @@
 Create a basic Microsoft Entra ID setup for an organization to manage identity and access.
 <b>Requirements</b>:
 1. Create a new Microsoft Entra ID tenant.
+
+![image](https://github.com/user-attachments/assets/d5718df7-61aa-4976-9f56-38ea905cf3ce)
