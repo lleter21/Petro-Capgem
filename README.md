@@ -26,14 +26,14 @@ B) Create users:
 
 <table>
   <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+    <th>Display Name</th>
+    <th>Email</th>
+    <th>Short Alias</th>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
+    <td>Van Gogh</td>
+    <td>vang@tvpeter0521gmail.onmicrosoft.com</td>
+    <td>vang</td>
   </tr>
   <tr>
     <td>Centro comercial Moctezuma</td>
