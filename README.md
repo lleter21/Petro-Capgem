@@ -11,3 +11,6 @@ Create a basic Microsoft Entra ID setup for an organization to manage identity a
 1. Create a new Microsoft Entra ID tenant.
 
 ![image](https://github.com/user-attachments/assets/7e9519bb-8faf-4add-847e-148019a65511)
+
+
+2. Add at least two users to the directory.
