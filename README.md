@@ -47,13 +47,13 @@ Logged in succesfully:
 
 ![image](https://github.com/user-attachments/assets/5f046950-87b8-4bab-ba13-02cb1494a6fa)
 ![image](https://github.com/user-attachments/assets/b3281af0-55b1-4a7f-883a-e999a5712984)
-</p>
+
 Creating admin user:
 <code>
 adminUserPassword=$(openssl rand -base64 10)
 adminUserObject=$(az ad user create --display-name "Van Gogh" --password "$adminUserPassword" --user-principal-name "vang@tvpeter0521gmail.onmicrosoft.com" --mail-nickname "vang")
 </code>
-</p>
+
 Creating developer user:
 <code>
 developerUserPassword=$(openssl rand -base64 10)
