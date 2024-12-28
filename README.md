@@ -52,7 +52,6 @@ adminUserObject=$(az ad user create --display-name "Van Gogh" --password "$admin
 </code>
 
 Creating developer user:
-<code>
-developerUserPassword=$(openssl rand -base64 10)
+<code>developerUserPassword=$(openssl rand -base64 10)
 developerUserObject=$(az ad user create --display-name "Michelangelo Buonarroti" --password "$developerUserPassword" --user-principal-name "micb@tvpeter0521gmail.onmicrosoft.com" --mail-nickname "micb")
 </code>
