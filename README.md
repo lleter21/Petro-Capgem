@@ -22,7 +22,6 @@ Logged in succesfully:
 
 ![image](https://github.com/user-attachments/assets/12ac4bbf-cd23-4543-8ee7-4b66c73e37fe)
 
+B) Create users:
 
-B) Create script file:
-
-![image](https://github.com/user-attachments/assets/372155f1-e740-41a9-b1b8-bf697b047503)
+![image](https://github.com/user-attachments/assets/5f046950-87b8-4bab-ba13-02cb1494a6fa)
