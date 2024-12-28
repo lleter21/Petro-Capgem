@@ -56,3 +56,6 @@ Creating developer user:
 developerUserPassword=$(openssl rand -base64 10)
 developerUserObject=$(az ad user create --display-name "Michelangelo Buonarroti" --password "$developerUserPassword" --user-principal-name "micb@tvpeter0521gmail.onmicrosoft.com" --mail-nickname "micb")
 </code>
+
+C) Validate users creation:
+![image](https://github.com/user-attachments/assets/f060cf25-4669-4b48-872b-ce85b8889595)
