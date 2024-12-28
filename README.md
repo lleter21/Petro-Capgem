@@ -14,7 +14,7 @@ Create a basic Microsoft Entra ID setup for an organization to manage identity a
 
 <h4>2. Add at least two users to the directory.</h4>
 
-<em>A) Login to Az CLI:</em>
+<font color="green">A) Login to Az CLI:<font color="green">
 
 ![image](https://github.com/user-attachments/assets/f404af62-103d-4f81-b8d3-9b109a32661f)
 
