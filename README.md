@@ -36,9 +36,9 @@ B) Create users:
     <td>vang</td>
   </tr>
   <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
+    <td>Michelangelo Buonarroti</td>
+    <td>micb@tvpeter0521gmail.onmicrosoft.com</td>
+    <td>micb</td>
   </tr>
 </table> 
 
