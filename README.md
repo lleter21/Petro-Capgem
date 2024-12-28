@@ -22,7 +22,7 @@ Logged in succesfully:
 
 ![image](https://github.com/user-attachments/assets/12ac4bbf-cd23-4543-8ee7-4b66c73e37fe)
 
-<b>B) Create users:</b>
+<ins>B) Create users:</ins>
 
 <table>
   <tr>
@@ -60,5 +60,5 @@ developerUserPassword=$(openssl rand -base64 10)
 developerUserObject=$(az ad user create --display-name "Michelangelo Buonarroti" --password "$developerUserPassword" --user-principal-name "micb@tvpeter0521gmail.onmicrosoft.com" --mail-nickname "micb")
 </code>
 
-<b>C) Validate users creation:</b>
+<ins>C) Validate users creation:</ins>
 ![image](https://github.com/user-attachments/assets/f060cf25-4669-4b48-872b-ce85b8889595)
