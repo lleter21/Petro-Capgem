@@ -117,6 +117,14 @@ az ad group member add --group "$adminGrpId" --member-id "$adminUserObjectId"
 Global Reader: f2ef992c-3afb-46b9-b7cf-a126ee74c451 
 ![image](https://github.com/user-attachments/assets/86531cca-57cf-434e-9226-054f938e4ac7)
 
+<ins>B) Assign Global Reader role to Admins group:</ins>
+
+![image](https://github.com/user-attachments/assets/da4dee07-dff9-408f-99cd-c952b5590bbd)
+
+<code>
+Body="{'principalId':'{$adminGrpId}', 'roleDefinitionId': 'f2ef992c-3afb-46b9-b7cf-a126ee74c451', 'directoryScopeId': '/'}"
+az rest --method POST --uri 'https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignments' --headers "Content-Type=application/json" --body "$Body"
+</code>
 
 <h4>6. Assign the Application Developerrole to the Developers group.</h4>
 
@@ -125,4 +133,12 @@ Global Reader: f2ef992c-3afb-46b9-b7cf-a126ee74c451
 Application Developer: cf1c38e5-3621-4004-a7cb-879624dced7c
 ![image](https://github.com/user-attachments/assets/cb4e529b-a104-4101-a964-b8a623ec153e)
 
+<ins>B) Assign Application Developer role to Developer group:</ins>
 
+![image](https://github.com/user-attachments/assets/c635a197-7c91-4166-85e7-0a4cb15ee53e)
+
+
+<code>
+Body="{'principalId':'{$developerGrpId}', 'roleDefinitionId': 'cf1c38e5-3621-4004-a7cb-879624dced7c', 'directoryScopeId': '/'}"
+az rest --method POST --uri 'https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignments' --headers "Content-Type=application/json" --body "$Body"
+</code>
