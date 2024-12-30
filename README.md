@@ -253,6 +253,17 @@ permission to retrieve secrets from the Key Vault.</h4>
 
 ![image](https://github.com/user-attachments/assets/c67684c9-f9b4-4c84-9dc3-d05c535d3072)
 
+<h4>4. Verify that only members of the Developers group can access the stored secret.</h4>
+
+<ins>A) Verify from developers perspective:</ins>
+![image](https://github.com/user-attachments/assets/9b59e7ac-46b4-475f-b457-98d230a6d8bb)
+
+![image](https://github.com/user-attachments/assets/27481489-136b-4b3b-83e6-d2d9cfeb2c18)
+
+<ins>A) Verify from admins perspective:</ins>
+
+![image](https://github.com/user-attachments/assets/a0633e8b-79e5-4b98-baf0-d116ded99e1c)
+![image](https://github.com/user-attachments/assets/8c29bae0-c84f-417f-bfe9-1b69632d27ed)
 
 
 
