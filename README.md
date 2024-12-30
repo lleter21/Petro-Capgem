@@ -281,9 +281,11 @@ Environment: Development).</h4>
 
 
 <h4>2. Assign the policy to a resource group.</h4>
+
 ![image](https://github.com/user-attachments/assets/9e2ae683-9089-4f77-8eb5-f81fec994130)
 
 <h4>3. Verify that any new resource created in the resource group without the required tag is marked as
 non-compliant.</h4>
+
 ![image](https://github.com/user-attachments/assets/90aaafeb-66d9-429d-9a56-f04d7db03753)
 
