@@ -285,6 +285,5 @@ Environment: Development).</h4>
 
 <h4>3. Verify that any new resource created in the resource group without the required tag is marked as
 non-compliant.</h4>
-
-![image](https://github.com/user-attachments/assets/17224537-d0bc-46be-b3a0-1dacc766878d)
+![image](https://github.com/user-attachments/assets/90aaafeb-66d9-429d-9a56-f04d7db03753)
 
