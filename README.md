@@ -79,7 +79,8 @@ developerUserObject=$(az ad user create --display-name "Michelangelo Buonarroti"
 <ins>A) Get User IDs:</ins>
 
 <code>
-  
+developerUserObjectId=$(echo "$developerUserObject" | jq .id | tr -d '"')
+adminUserObjectId=$(echo "$adminUserObject" | jq .id | tr -d '"')
 </code>
 
 ![image](https://github.com/user-attachments/assets/cca93c08-5cb7-4e53-a513-222377ebcb6d)
