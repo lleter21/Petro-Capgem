@@ -153,3 +153,10 @@ az rest --method POST --uri 'https://graph.microsoft.com/v1.0/roleManagement/dir
 
 ![image](https://github.com/user-attachments/assets/542bfd84-e5ae-41d6-b339-ea87406af600)
 
+
+<h2>Practical Task 3: Implementing Role-Based Access Control (RBAC)</h2>
+Implement Role-Based Access Control (RBAC) in Azure to manage access to resources based on roles and
+ensure fine-grained access management.</p>
+<b>Requirements</b>:</p>
+<h4>1. Create a custom role named Resource Viewer with read-only permissions for a specific resource
+group.</h4>
