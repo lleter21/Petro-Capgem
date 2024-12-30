@@ -78,6 +78,10 @@ developerUserObject=$(az ad user create --display-name "Michelangelo Buonarroti"
 
 <ins>A) Get User IDs:</ins>
 
+<code>
+  
+</code>
+
 ![image](https://github.com/user-attachments/assets/cca93c08-5cb7-4e53-a513-222377ebcb6d)
 
 <ins>B) Get groups ID:</ins>
@@ -88,4 +92,7 @@ developerUserObject=$(az ad user create --display-name "Michelangelo Buonarroti"
 
 ![image](https://github.com/user-attachments/assets/876afc71-bf7d-47e2-9cc6-426d43a377a1)
 
-
+<code>
+az ad group member add --group "$developerGrpId" --member-id "$developerUserObjectId"
+az ad group member add --group "$adminGrpId" --member-id "$adminUserObjectId"
+</code>
