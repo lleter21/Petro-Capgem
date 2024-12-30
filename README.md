@@ -219,3 +219,34 @@ certificates.</p>
 <b>Requirements</b>:</p>
 <h4>1. Create a new Azure Key Vault in your subscription.</h4>
 
+<ins>A) Create Key Vault:</ins>
+![image](https://github.com/user-attachments/assets/c177be9f-6bb4-4d0d-87d0-1c6e4085889c)
+
+<code>
+az keyvault create --resource-group "pett-test" --location "westeurope" --name "pett-kv" --sku "standard" --enable-rbac-authorization false
+</code>
+
+<ins>B) Verify Key Vault creation:</ins>
+![image](https://github.com/user-attachments/assets/5db8f369-cb10-45ec-b7e3-23c6454ffd91)
+
+<h4>2. Add a secret to the Key Vault (e.g., a database connection string).</h4>
+
+<ins>A) Create Key Vault secret:</ins>
+
+![image](https://github.com/user-attachments/assets/4a822d1a-6eaa-4fac-bd90-2f72431a8fee)
+
+<code>
+az keyvault secret set --name ConnectionString-messaging --vault-name pett-kv --value "server=(LocalDb)\\MSSQLLocalDb;database=messaging;trusted_connection=yes;Pooling=false;"
+</code>
+<ins>B) Verify Key Vault secret:</ins>
+
+![image](https://github.com/user-attachments/assets/8310bc3c-90c3-4aa3-8753-15cb0a2cb7ae)
+
+<h4>3. Set access policies to grant the Application Developer role (assigned to the Developers group)
+permission to retrieve secrets from the Key Vault.</h4>
+
+![image](https://github.com/user-attachments/assets/0d91593d-fc7b-45a8-958c-c4b678a8f611)
+
+
+
+
