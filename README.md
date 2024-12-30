@@ -245,7 +245,13 @@ az keyvault secret set --name ConnectionString-messaging --vault-name pett-kv --
 <h4>3. Set access policies to grant the Application Developer role (assigned to the Developers group)
 permission to retrieve secrets from the Key Vault.</h4>
 
-![image](https://github.com/user-attachments/assets/0d91593d-fc7b-45a8-958c-c4b678a8f611)
+<ins>A) Assign Get, List permissions for Developers:</ins>
+
+![image](https://github.com/user-attachments/assets/cec38a6a-8398-4d62-b346-777dd0b1df55)
+
+<ins>A) Verify Get, List permissions for Developers:</ins>
+
+![image](https://github.com/user-attachments/assets/c67684c9-f9b4-4c84-9dc3-d05c535d3072)
 
 
 
