@@ -210,6 +210,12 @@ group have full access to the resource group.</h4>
 <ins>B) Verify Developer access of Michelangelo Buonarroti:</ins>
 
 ![image](https://github.com/user-attachments/assets/0cd17308-4717-4551-a30a-3e39a5d8defd)
-
 ![image](https://github.com/user-attachments/assets/de72cd6e-6038-49b3-acce-5a7992a5ec0f)
+
+
+<h2>Practical Task 4: Securing Sensitive Information with Azure Key Vault</h2>
+Set up Azure Key Vault to securely store and manage sensitive information such as keys, secrets, and
+certificates.</p>
+<b>Requirements</b>:</p>
+<h4>1. Create a new Azure Key Vault in your subscription.</h4>
 
