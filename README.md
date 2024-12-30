@@ -80,9 +80,12 @@ developerUserObject=$(az ad user create --display-name "Michelangelo Buonarroti"
 
 ![image](https://github.com/user-attachments/assets/cca93c08-5cb7-4e53-a513-222377ebcb6d)
 
-<ins>A) Assign users to groups:</ins>
+<ins>B) Get groups ID:</ins>
 
+![image](https://github.com/user-attachments/assets/0ca80329-fc32-4cf8-baec-70ea84a7215c)
 
+<ins>C) Assign the users to appropriate groups:</ins>
 
+![image](https://github.com/user-attachments/assets/876afc71-bf7d-47e2-9cc6-426d43a377a1)
 
 
