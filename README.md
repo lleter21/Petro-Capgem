@@ -187,3 +187,13 @@ az role assignment create --assignee "$developerGrpId" --role "Resource Viewer" 
 <ins>B) Verify role assignment:</ins>
 
 ![image](https://github.com/user-attachments/assets/e25c1d9a-417c-4463-9446-a6c18f013df5)
+
+<h4>3. Assign the built-in Contributor role to the Admins group for the same resource group.</h4>
+
+<ins>A) Assign RBAC to Admin group:</ins>
+
+![image](https://github.com/user-attachments/assets/a622cc73-a99b-4ea0-9c5c-3de248615095)
+
+<ins>B) Verify role assignment:</ins>
+
+![image](https://github.com/user-attachments/assets/d5e0f3ea-95b6-4b18-a432-2114594a3089)
