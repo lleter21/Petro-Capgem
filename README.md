@@ -66,5 +66,10 @@ developerUserObject=$(az ad user create --display-name "Michelangelo Buonarroti"
 
 <h4>2. Create two groups named Developers and Admins.</h4>
 
+<ins>A) Create group: Developers</ins>
+
 ![image](https://github.com/user-attachments/assets/b493338b-4a47-4a7e-9226-73fd3a447c62)
 
+<ins>A) Create group: Admins</ins>
+
+![image](https://github.com/user-attachments/assets/d5ec2ae9-563f-4efe-992c-de469c163f1b)
