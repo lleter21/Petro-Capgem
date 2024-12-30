@@ -266,4 +266,10 @@ permission to retrieve secrets from the Key Vault.</h4>
 ![image](https://github.com/user-attachments/assets/8c29bae0-c84f-417f-bfe9-1b69632d27ed)
 
 
+<h2>Practical Task 5: Creating and Assigning Basic Azure Policies</h2>
+Define and assign Azure Policies to enforce compliance with organizational standards for resource
+management.</p>
+<b>Requirements</b>:</p>
+<h4>1. Create an Azure Policy to enforce tagging for all newly created resources with a specific tag (e.g.,
+Environment: Development).</h4>
 
