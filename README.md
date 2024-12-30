@@ -168,5 +168,8 @@ group.</h4>
 
 ![image](https://github.com/user-attachments/assets/4314412c-9331-4770-8df1-8a5f15e4ef9f)
 
-<ins>A) Create Custom role in Azure:</ins>
+<ins>C) Create Custom role in Azure:</ins>
 ![image](https://github.com/user-attachments/assets/d8ca6ba8-9ca3-4038-ae09-c751ad3a0823)
+
+<ins>D) Verify custom role:</ins>
+![image](https://github.com/user-attachments/assets/9722670a-fa1c-4948-9d7f-f116a71f66df)
