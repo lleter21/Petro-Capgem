@@ -173,3 +173,11 @@ group.</h4>
 
 <ins>D) Verify custom role:</ins>
 ![image](https://github.com/user-attachments/assets/9722670a-fa1c-4948-9d7f-f116a71f66df)
+
+<h4>2. Assign the Resource Viewer role to the Developers group created earlier.</h4>
+
+![image](https://github.com/user-attachments/assets/3499fa64-81c4-433e-9ae4-fa043efcb9b4)
+
+<code>
+az role assignment create --assignee "$developerGrpId" --role "Resource Viewer" --scope "/subscriptions/d3709b2c-d52e-4ed8-9a9d-3f76cc03a646/resourceGroups/pett-test"
+</code>
