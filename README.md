@@ -64,7 +64,7 @@ developerUserObject=$(az ad user create --display-name "Michelangelo Buonarroti"
 ![image](https://github.com/user-attachments/assets/f060cf25-4669-4b48-872b-ce85b8889595)
 
 
-<h4>2. Create two groups named Developers and Admins.</h4>
+<h4>3. Create two groups named Developers and Admins.</h4>
 
 <ins>A) Create group: Developers</ins>
 
@@ -73,3 +73,16 @@ developerUserObject=$(az ad user create --display-name "Michelangelo Buonarroti"
 <ins>A) Create group: Admins</ins>
 
 ![image](https://github.com/user-attachments/assets/d5ec2ae9-563f-4efe-992c-de469c163f1b)
+
+<h4>4. Assign the users to appropriate groups.</h4>
+
+<ins>A) Get User IDs:</ins>
+
+![image](https://github.com/user-attachments/assets/cca93c08-5cb7-4e53-a513-222377ebcb6d)
+
+<ins>A) Assign users to groups:</ins>
+
+
+
+
+
