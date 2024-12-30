@@ -103,3 +103,10 @@ adminGrpId=$(echo "$adGroups" | jq 'select(.displayName=="Admins")' | jq '.id' |
 az ad group member add --group "$developerGrpId" --member-id "$developerUserObjectId"
 az ad group member add --group "$adminGrpId" --member-id "$adminUserObjectId"
 </code>
+
+<ins>D) Verify users in groups:</ins>
+![image](https://github.com/user-attachments/assets/33c94913-fbab-4a63-b474-0f461c974247)
+
+![image](https://github.com/user-attachments/assets/9de9c2bf-d7a2-42f4-9c4f-490fc42fcb34)
+
+
