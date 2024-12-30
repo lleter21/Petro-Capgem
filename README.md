@@ -176,8 +176,14 @@ group.</h4>
 
 <h4>2. Assign the Resource Viewer role to the Developers group created earlier.</h4>
 
+<ins>B) Assign RBAC to Developers group:</ins>
+
 ![image](https://github.com/user-attachments/assets/3499fa64-81c4-433e-9ae4-fa043efcb9b4)
 
 <code>
 az role assignment create --assignee "$developerGrpId" --role "Resource Viewer" --scope "/subscriptions/d3709b2c-d52e-4ed8-9a9d-3f76cc03a646/resourceGroups/pett-test"
 </code>
+
+<ins>B) Verify role assignment:</ins>
+
+![image](https://github.com/user-attachments/assets/e25c1d9a-417c-4463-9446-a6c18f013df5)
