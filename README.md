@@ -204,5 +204,12 @@ group have full access to the resource group.</h4>
 <ins>A) Verify Admin access of Van Gogh:</ins>
 
 ![image](https://github.com/user-attachments/assets/c5511873-0e4e-460f-8ab6-224037cdcb4b)
+![image](https://github.com/user-attachments/assets/7e4c38c0-440c-49c7-b424-83e7861fac64)
 
-<ins>A) Verify Admin access of Van Gogh:</ins>
+
+<ins>B) Verify Developer access of Michelangelo Buonarroti:</ins>
+
+![image](https://github.com/user-attachments/assets/0cd17308-4717-4551-a30a-3e39a5d8defd)
+
+![image](https://github.com/user-attachments/assets/de72cd6e-6038-49b3-acce-5a7992a5ec0f)
+
