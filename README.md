@@ -197,3 +197,12 @@ az role assignment create --assignee "$developerGrpId" --role "Resource Viewer" 
 <ins>B) Verify role assignment:</ins>
 
 ![image](https://github.com/user-attachments/assets/d5e0f3ea-95b6-4b18-a432-2114594a3089)
+
+<h4>4. Verify that members of the Developers group have only read access and members of the Admins
+group have full access to the resource group.</h4>
+
+<ins>A) Verify Admin access of Van Gogh:</ins>
+
+![image](https://github.com/user-attachments/assets/c5511873-0e4e-460f-8ab6-224037cdcb4b)
+
+<ins>A) Verify Admin access of Van Gogh:</ins>
