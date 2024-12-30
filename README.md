@@ -273,3 +273,8 @@ management.</p>
 <h4>1. Create an Azure Policy to enforce tagging for all newly created resources with a specific tag (e.g.,
 Environment: Development).</h4>
 
+![image](https://github.com/user-attachments/assets/3e11c6dd-4c4c-4cdd-885c-cd8bedd82248)
+![image](https://github.com/user-attachments/assets/503a0b66-5668-4da1-9abe-aea96b135a1c)
+![image](https://github.com/user-attachments/assets/65f274b7-c923-4080-8525-11611fcb8a2b)
+![image](https://github.com/user-attachments/assets/5253c9d0-768d-428b-876c-36705512b1c3)
+
