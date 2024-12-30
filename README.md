@@ -112,16 +112,17 @@ az ad group member add --group "$adminGrpId" --member-id "$adminUserObjectId"
 
 <h4>5. Assign the Global Reader role to the Admins group.</h4>
 
-<ins>A) Get role Ids:</ins>
+<ins>A) Get Global Reader role Id:</ins>
 
 Global Reader: f2ef992c-3afb-46b9-b7cf-a126ee74c451 
 ![image](https://github.com/user-attachments/assets/86531cca-57cf-434e-9226-054f938e4ac7)
 
 
-<h4>6. Assign the Global Reader role to the Admins group.</h4>
+<h4>6. Assign the Application Developerrole to the Developers group.</h4>
+
+<ins>A) Get Application Developer role Id:</ins>
 
 Application Developer: cf1c38e5-3621-4004-a7cb-879624dced7c
 ![image](https://github.com/user-attachments/assets/cb4e529b-a104-4101-a964-b8a623ec153e)
 
-<ins>B) Assi:</ins>
 
