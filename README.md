@@ -62,3 +62,9 @@ developerUserObject=$(az ad user create --display-name "Michelangelo Buonarroti"
 
 <ins>C) Validate users creation:</ins>
 ![image](https://github.com/user-attachments/assets/f060cf25-4669-4b48-872b-ce85b8889595)
+
+
+<h4>2. Create two groups named Developers and Admins.</h4>
+
+![image](https://github.com/user-attachments/assets/b493338b-4a47-4a7e-9226-73fd3a447c62)
+
