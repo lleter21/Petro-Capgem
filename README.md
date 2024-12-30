@@ -160,3 +160,13 @@ ensure fine-grained access management.</p>
 <b>Requirements</b>:</p>
 <h4>1. Create a custom role named Resource Viewer with read-only permissions for a specific resource
 group.</h4>
+
+<ins>A) Create Custom role file for specific resource group:</ins>
+![image](https://github.com/user-attachments/assets/71d70b92-9cda-49bc-b1cf-1233331af3be)
+
+<ins>B) Create resource group pett-test:</ins>
+
+![image](https://github.com/user-attachments/assets/4314412c-9331-4770-8df1-8a5f15e4ef9f)
+
+<ins>A) Create Custom role in Azure:</ins>
+![image](https://github.com/user-attachments/assets/d8ca6ba8-9ca3-4038-ae09-c751ad3a0823)
