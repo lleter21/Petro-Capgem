@@ -142,3 +142,14 @@ Application Developer: cf1c38e5-3621-4004-a7cb-879624dced7c
 Body="{'principalId':'{$developerGrpId}', 'roleDefinitionId': 'cf1c38e5-3621-4004-a7cb-879624dced7c', 'directoryScopeId': '/'}"
 az rest --method POST --uri 'https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignments' --headers "Content-Type=application/json" --body "$Body"
 </code>
+
+<h4>7. Verify that the role assignments function as expected for both groups.</h4>
+
+<ins>A) Verification for development group:</ins>
+
+![image](https://github.com/user-attachments/assets/2361fafa-2822-4b0f-a356-4a75b0cff211)
+
+<ins>B) Verification for admin group:</ins>
+
+![image](https://github.com/user-attachments/assets/542bfd84-e5ae-41d6-b339-ea87406af600)
+
