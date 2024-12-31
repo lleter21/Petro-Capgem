@@ -217,6 +217,25 @@ Reply URL(Assertion Consumer Service URL) - https://sptest.iamshowcase.com/acs</
 
 <h4>3.4. Verify that SSO and MFA settings are correctly applied for the users.</h4>
 
+<ins>A) Logout from Azure and Login again, you will see Microsoft Authenticator window to enable MFA</ins>
+
+![image](https://github.com/user-attachments/assets/d323aae5-d421-4be8-bf05-d99a7987518e)
+
+<ins>B) To test SSO, open recently created application - SSO-test-app and click test this application</ins>
+![image](https://github.com/user-attachments/assets/a1c035bf-77bf-4f63-9ce4-c1baee91d51f)
+
+<ins>B) Press test sign in</ins>
+
+![image](https://github.com/user-attachments/assets/fcb5fc59-4e51-4499-94c4-75f07f6f3a86)
+
+<ins>C) Pick all accounts one by one to check it</ins>
+
+<img width="722" alt="image" src="https://github.com/user-attachments/assets/5df4451c-bdd4-45c1-ba78-f99dc20f718d" />
+
+<ins>C) Verify result of SSO login</ins>
+
+![image](https://github.com/user-attachments/assets/2bf493a7-891f-4528-a4b2-0082534fe50f)
+
 
 <h2>Practical Task 3: Implementing Role-Based Access Control (RBAC)</h2>
 Implement Role-Based Access Control (RBAC) in Azure to manage access to resources based on roles and
