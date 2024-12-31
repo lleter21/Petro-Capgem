@@ -403,5 +403,7 @@ group</h4>
 
 ![image](https://github.com/user-attachments/assets/9625b835-5fd7-4dca-bee5-57ac26c554c9)
 
+<ins>A) Verification of new resource created </ins>
+![image](https://github.com/user-attachments/assets/503e1b11-8563-4945-a89b-cce301e9ab99)
 
 
