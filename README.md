@@ -355,11 +355,15 @@ management.</p>
 <b>Requirements</b>:</p>
 <h4>1. Create an Azure Policy to enforce tagging for all newly created resources with a specific tag (e.g.,
 Environment: Development).</h4>
+<ins>A) Create policy based on builtin definition require a tag and its value on resources:</ins>
 
 ![image](https://github.com/user-attachments/assets/3e11c6dd-4c4c-4cdd-885c-cd8bedd82248)
 ![image](https://github.com/user-attachments/assets/503a0b66-5668-4da1-9abe-aea96b135a1c)
 ![image](https://github.com/user-attachments/assets/65f274b7-c923-4080-8525-11611fcb8a2b)
 ![image](https://github.com/user-attachments/assets/5253c9d0-768d-428b-876c-36705512b1c3)
+
+<ins>A) Since we enabled enforcement, we need to verify that we cannot create any resources without specific tag</ins>
+
 ![image](https://github.com/user-attachments/assets/4898a8b5-8f15-4eec-84be-08050e77ad3e)
 
 
@@ -370,9 +374,13 @@ Environment: Development).</h4>
 <h4>3. Verify that any new resource created in the resource group without the required tag is marked as
 non-compliant.</h4>
 
+<ins>A) We have to disable enforcement to create any resource to verify it</ins>
+
 ![image](https://github.com/user-attachments/assets/90aaafeb-66d9-429d-9a56-f04d7db03753)
 
 ![image](https://github.com/user-attachments/assets/1ddf1de6-7d79-4e8a-98cb-07262e4022b5)
+
+<ins>B) Verification of compliance statuses </ins>
 
 ![image](https://github.com/user-attachments/assets/4e9e79c5-ce81-4a10-8ca0-31d0214f829b)
 
