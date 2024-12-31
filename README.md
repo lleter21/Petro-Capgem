@@ -392,3 +392,12 @@ non-compliant.</h4>
 </h4>
 ![image](https://github.com/user-attachments/assets/96e1719d-b9f7-4923-aca9-1d8944f2250b)
 
+<h2>Practical Task 6: Using Policy Effects to Enforce Compliance</h2>
+Configure Azure Policies with different policy effects to enforce compliance and manage resources
+according to organizational standards.</p>
+<b>Requirements</b>:</p>
+<h4>1. Create a policy with the Audit effect to monitor and log untagged resources within a resource
+group</h4>
+
+![image](https://github.com/user-attachments/assets/c0122b93-81a0-479c-9e6a-6d3f098f0db6)
+
