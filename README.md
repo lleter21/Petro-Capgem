@@ -164,42 +164,58 @@ directory to enhance identity and access security.</p>
 
 <img width="1243" alt="image" src="https://github.com/user-attachments/assets/1a74cd67-ec46-41c0-835e-1ae8e7278782" />
 
-<ins>B) Go to SSO section and insert:
+<ins>B) Go to SSO section and insert:</ins>
 Identifier (Entity ID) - IAMShowcase
 Reply URL(Assertion Consumer Service URL) - https://sptest.iamshowcase.com/acs</ins>
 
 ![image](https://github.com/user-attachments/assets/ca0f6efa-ab2a-446c-aecb-c0877d213e7b)
 
-<ins>C) Download Federation Metadata XML:
+<ins>C) Download Federation Metadata XML:</ins>
 
 ![image](https://github.com/user-attachments/assets/8826acdd-7890-4a1c-876e-1aa904f16d59)
 
-<ins>D) Open a new tab and access https://sptest.iamshowcase.com/. Click on "Instructions" and select "SP Initiated SSO.":
+<ins>D) Open a new tab and access https://sptest.iamshowcase.com/. Click on "Instructions" and select "SP Initiated SSO.":</ins>
 
 <img width="545" alt="image" src="https://github.com/user-attachments/assets/2e411566-293a-4a0f-8411-0dbfc9518c7f" />
 
-<ins>E) Upload and submit Federation Metadata XML file downloaded earlier:
+<ins>E) Upload and submit Federation Metadata XML file downloaded earlier:</ins>
 
 ![image](https://github.com/user-attachments/assets/97f41059-834c-49e6-8536-f7b7234f6c7e)
+
+<ins>F) Add users/groups to Enterprise Application (SSO-test-app):</ins>
+
+![image](https://github.com/user-attachments/assets/826057b0-80ae-4067-a293-e4889455644f)
+
+![image](https://github.com/user-attachments/assets/817973f5-02e0-4ffe-b21b-e13f7b20001a)
+
+
 
 <h4>2. Enforce Multi-Factor Authentication (MFA) for all users in the directory.
 </h4>
 
-<ins>A) Open Entra Id => Security section:
+<ins>A) Open Entra Id => Security section:</ins>
 
 ![image](https://github.com/user-attachments/assets/e4753aec-cb5d-4a69-89c3-9a0b6aec8d9f)
 
-<ins>B) Go to Conditional Access:
+<ins>B) Go to Conditional Access:</ins>
 
 ![image](https://github.com/user-attachments/assets/ce5bf6f7-86c5-460f-a3fd-fc4d50cdc426)
 
-<ins>C) Click Create new policy:
+<ins>C) Click Create new policy:</ins>
 
 ![image](https://github.com/user-attachments/assets/d9aff629-354e-4fbe-aaa0-753d3c01d914)
 
-<ins>D) Enable it for all cloud apps/users and require multifactor authentication:
+<ins>D) Enable it for all cloud apps/users and require multifactor authentication:</ins>
 
 ![image](https://github.com/user-attachments/assets/2206247a-49ca-43fd-a3b0-165dda50bb33)
+
+<h4>3. Configure conditional access policies to require MFA for high-risk sign-ins.
+</h4>
+
+<ins>A) Go to the same policy created earlier (MFA MFA enforcement) and enable sign-ins risk to high</ins>
+![image](https://github.com/user-attachments/assets/82a605cd-fa6e-4996-b761-e4078d30cd43)
+
+<h4>3.4. Verify that SSO and MFA settings are correctly applied for the users.</h4>
 
 
 <h2>Practical Task 3: Implementing Role-Based Access Control (RBAC)</h2>
