@@ -399,5 +399,9 @@ according to organizational standards.</p>
 <h4>1. Create a policy with the Audit effect to monitor and log untagged resources within a resource
 group</h4>
 
-![image](https://github.com/user-attachments/assets/c0122b93-81a0-479c-9e6a-6d3f098f0db6)
+<ins>A) Create definition </ins>
+
+![image](https://github.com/user-attachments/assets/9625b835-5fd7-4dca-bee5-57ac26c554c9)
+
+
 
