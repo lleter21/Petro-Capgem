@@ -182,7 +182,24 @@ Reply URL(Assertion Consumer Service URL) - https://sptest.iamshowcase.com/acs</
 
 ![image](https://github.com/user-attachments/assets/97f41059-834c-49e6-8536-f7b7234f6c7e)
 
+<h4>2. Enforce Multi-Factor Authentication (MFA) for all users in the directory.
+</h4>
 
+<ins>A) Open Entra Id => Security section:
+
+![image](https://github.com/user-attachments/assets/e4753aec-cb5d-4a69-89c3-9a0b6aec8d9f)
+
+<ins>B) Go to Conditional Access:
+
+![image](https://github.com/user-attachments/assets/ce5bf6f7-86c5-460f-a3fd-fc4d50cdc426)
+
+<ins>C) Click Create new policy:
+
+![image](https://github.com/user-attachments/assets/d9aff629-354e-4fbe-aaa0-753d3c01d914)
+
+<ins>D) Enable it for all cloud apps/users and require multifactor authentication:
+
+![image](https://github.com/user-attachments/assets/2206247a-49ca-43fd-a3b0-165dda50bb33)
 
 
 <h2>Practical Task 3: Implementing Role-Based Access Control (RBAC)</h2>
