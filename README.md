@@ -153,6 +153,37 @@ az rest --method POST --uri 'https://graph.microsoft.com/v1.0/roleManagement/dir
 
 ![image](https://github.com/user-attachments/assets/542bfd84-e5ae-41d6-b339-ea87406af600)
 
+<h2>Practical Task 2: Enabling Single Sign-On (SSO) and Multi-Factor Authentication (MFA)
+ (RBAC)</h2>
+ Configure Single Sign-On (SSO) and Multi-Factor Authentication (MFA) for users in a Microsoft Entra ID
+directory to enhance identity and access security.</p>
+<b>Requirements</b>:</p>
+<h4>1. Enable Single Sign-On (SSO) for your Microsoft Entra ID tenant.</h4>
+
+<ins>A) Creating Enterprise application:</ins>
+
+<img width="1243" alt="image" src="https://github.com/user-attachments/assets/1a74cd67-ec46-41c0-835e-1ae8e7278782" />
+
+<ins>B) Go to SSO section and insert:
+Identifier (Entity ID) - IAMShowcase
+Reply URL(Assertion Consumer Service URL) - https://sptest.iamshowcase.com/acs</ins>
+
+![image](https://github.com/user-attachments/assets/ca0f6efa-ab2a-446c-aecb-c0877d213e7b)
+
+<ins>C) Download Federation Metadata XML:
+
+![image](https://github.com/user-attachments/assets/8826acdd-7890-4a1c-876e-1aa904f16d59)
+
+<ins>D) Open a new tab and access https://sptest.iamshowcase.com/. Click on "Instructions" and select "SP Initiated SSO.":
+
+<img width="545" alt="image" src="https://github.com/user-attachments/assets/2e411566-293a-4a0f-8411-0dbfc9518c7f" />
+
+<ins>E) Upload and submit Federation Metadata XML file downloaded earlier:
+
+![image](https://github.com/user-attachments/assets/97f41059-834c-49e6-8536-f7b7234f6c7e)
+
+
+
 
 <h2>Practical Task 3: Implementing Role-Based Access Control (RBAC)</h2>
 Implement Role-Based Access Control (RBAC) in Azure to manage access to resources based on roles and
