@@ -419,7 +419,7 @@ Custom User-Assigned Managed Identity with Contributor role (should`ve been used
 
 ![image](https://github.com/user-attachments/assets/44eacd57-ad16-4dc3-a159-8033a37f29fa)
 
-<ins>B) Check policy </ins>
+<ins>B) Check the policy </ins>
 
 ![image](https://github.com/user-attachments/assets/089b30b7-66c7-43ad-b1c7-160aca5d6e8e)
 
