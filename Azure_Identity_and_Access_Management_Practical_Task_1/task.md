@@ -419,4 +419,16 @@ Custom User-Assigned Managed Identity with Contributor role (should`ve been used
 
 ![image](https://github.com/user-attachments/assets/44eacd57-ad16-4dc3-a159-8033a37f29fa)
 
+<ins>B) Check policy </ins>
 
+![image](https://github.com/user-attachments/assets/089b30b7-66c7-43ad-b1c7-160aca5d6e8e)
+
+If we trigger remediation, it works:
+
+![image](https://github.com/user-attachments/assets/d1626768-44d0-4641-99dc-06144286c79c)
+
+However, tag applies only to resource group level, not to resources layer for some reason:
+
+![image](https://github.com/user-attachments/assets/776047c4-1098-4131-a70b-0669fd5f377b)
+
+![image](https://github.com/user-attachments/assets/dbece26e-e8af-4b68-96bf-e824c3adac91)
