@@ -403,7 +403,20 @@ group</h4>
 
 ![image](https://github.com/user-attachments/assets/9625b835-5fd7-4dca-bee5-57ac26c554c9)
 
-<ins>A) Verification of new resource created </ins>
+<ins>B) Verification of new resource created </ins>
 ![image](https://github.com/user-attachments/assets/503e1b11-8563-4945-a89b-cce301e9ab99)
+
+<h4>2.Create a policy with the DeployIfNotExists effect to automatically add a specific tag (Owner: IT) to
+any newly created resource.</h4>
+
+<ins>A) Create definition and asssignment </ins>
+
+![image](https://github.com/user-attachments/assets/50d6e9d7-ef75-45bf-b880-6d0a0b7c97bf)
+
+![image](https://github.com/user-attachments/assets/934fcc4e-0dcd-442c-8367-116f861ce22a)
+
+Custom User-Assigned Managed Identity with Contributor role (should`ve been used Tag Contributor)
+
+![image](https://github.com/user-attachments/assets/44eacd57-ad16-4dc3-a159-8033a37f29fa)
 
 
