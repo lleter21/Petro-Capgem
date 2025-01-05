@@ -388,8 +388,8 @@ non-compliant.</h4>
 
 ![image](https://github.com/user-attachments/assets/98d1be4a-2c5b-4f7f-9c2d-359557afa9d6)
 
-<h4>4. Review and document the compliance status of the resource group.
-</h4>
+<h4>4. Review and document the compliance status of the resource group.</h4>
+
 ![image](https://github.com/user-attachments/assets/96e1719d-b9f7-4923-aca9-1d8944f2250b)
 
 <h2>Practical Task 6: Using Policy Effects to Enforce Compliance</h2>
