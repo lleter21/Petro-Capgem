@@ -362,7 +362,7 @@ Environment: Development).</h4>
 ![image](https://github.com/user-attachments/assets/65f274b7-c923-4080-8525-11611fcb8a2b)
 ![image](https://github.com/user-attachments/assets/5253c9d0-768d-428b-876c-36705512b1c3)
 
-<ins>A) Since we enabled enforcement, we need to verify that we cannot create any resources without specific tag</ins>
+<ins>B) Since we enabled enforcement, we need to verify that we cannot create any resources without specific tag</ins>
 
 ![image](https://github.com/user-attachments/assets/4898a8b5-8f15-4eec-84be-08050e77ad3e)
 
