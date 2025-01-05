@@ -343,7 +343,7 @@ permission to retrieve secrets from the Key Vault.</h4>
 
 ![image](https://github.com/user-attachments/assets/27481489-136b-4b3b-83e6-d2d9cfeb2c18)
 
-<ins>A) Verify from admins perspective:</ins>
+<ins>B) Verify from admins perspective:</ins>
 
 ![image](https://github.com/user-attachments/assets/a0633e8b-79e5-4b98-baf0-d116ded99e1c)
 ![image](https://github.com/user-attachments/assets/8c29bae0-c84f-417f-bfe9-1b69632d27ed)
